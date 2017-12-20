@@ -1,0 +1,31 @@
+
+****************************Device 0*************************************
+----------General Information----------
+Name: GeForce GTX 580
+Compute capability: 2.0
+Clock rate: 1544 MHz
+GPU type: Discreted GPU
+Device copy overlap: Enabled
+Kernel execution timeout: Disabled
+Mapping Host Memory into CUDA Device Address Space: Enabled
+Executing Multiple Kernels Support: Enabled
+Device Computing Mode: Exclusive
+
+----------Memory Information for device----------
+Total Global Memory: 1535 MB
+Total Constant Memory: 64 kB
+Max Memory Pitch Allowed for Memory Copies: 2047 MB
+Texture Alignment: 512 B
+Max Size Supported for 1D Textures: 65536
+Max Dimensions Supported for 2D Texture: (65536, 65535)
+Max Dimensions Supported for 3D Texture: (2048, 2048, 2048)
+
+----------Thread Information for device----------
+Streaming Multiprocessor count: 16
+Shared Memory per Block: 48 KB
+Registers per Block: 32768
+Threads in warp: 32
+Max threads per block: 1024
+Max thread dimensions: (1024, 1024, 64)
+Max grid dimensions: (65535, 65535, 65535)
+*****************************************************************

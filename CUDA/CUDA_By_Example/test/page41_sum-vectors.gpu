@@ -1,0 +1,34 @@
+# 211 "/usr/lib/gcc/x86_64-redhat-linux/4.4.6/include/stddef.h" 3
+typedef unsigned long size_t;
+#include "crt/device_runtime.h"
+# 7 "page41_sum-vectors.cu"
+__global__ __var_used__ extern void _Z3addPiS_S_(int *, int *, int *);
+#include "common_functions.h"
+# 7 "page41_sum-vectors.cu"
+__global__ __var_used__ void _Z3addPiS_S_(
+# 7 "page41_sum-vectors.cu"
+int *a, 
+# 7 "page41_sum-vectors.cu"
+int *b, 
+# 7 "page41_sum-vectors.cu"
+int *c){
+# 7 "page41_sum-vectors.cu"
+{
+# 7 "page41_sum-vectors.cu"
+{
+# 8 "page41_sum-vectors.cu"
+ int __cuda_local_var_16316_6_non_const_tid;
+# 8 "page41_sum-vectors.cu"
+__cuda_local_var_16316_6_non_const_tid = ((int)(blockIdx.x));
+# 9 "page41_sum-vectors.cu"
+if (__cuda_local_var_16316_6_non_const_tid < 10)
+# 9 "page41_sum-vectors.cu"
+{
+# 10 "page41_sum-vectors.cu"
+(c[__cuda_local_var_16316_6_non_const_tid]) = ((a[__cuda_local_var_16316_6_non_const_tid]) + (b[__cuda_local_var_16316_6_non_const_tid]));
+# 10 "page41_sum-vectors.cu"
+}
+# 11 "page41_sum-vectors.cu"
+} 
+# 11 "page41_sum-vectors.cu"
+}}
