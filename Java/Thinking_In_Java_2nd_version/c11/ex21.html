@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title >PASSWORD密码属性的用法</title>
+  </head>
+  <body>
+    <form name="form1" action="./FormData.jsp" method="POST">
+      输入密码：
+      <input type="password" name="password1" size="8"/>
+
+      <button name="button"
+        onmousedown="document.form1.text1.value = document.form1.password1.value">
+        查看输入的密码
+      </button><br />
+
+      您刚输入的密码：
+      <input type="text" name="text1" value="" size="8"/>
+
+      <input type="submit" name="submit" value="发送"/>
+    </form>
+  </body>
+</html>
