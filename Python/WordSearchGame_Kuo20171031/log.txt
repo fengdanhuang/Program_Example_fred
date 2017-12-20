@@ -1,0 +1,3 @@
+
+The number of arguments are:  1
+The program is:  WordSearchGame.py
