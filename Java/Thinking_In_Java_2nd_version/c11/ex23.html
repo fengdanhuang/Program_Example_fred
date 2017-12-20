@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title >RADIO单选属性的用法</title>
+  </head>
+  <body>
+    <form name="form1" action="./FormData.jsp" method="POST">
+      <input type="radio" name="sex" value="female" onclick="document.form1.text1.value = '女生';"/>
+      	女生<br />
+
+      <input type="radio" name="sex" value="male" onclick="document.form1.text1.value = '男生';"/>
+      	男生<br />
+
+      <input type="radio" name="sex" value="NA" disabled/>
+      	非男非女<br />
+
+      <input type="text" name="text1" value="" size="16"/><br />
+      <input type="submit" name="submit" value="发送"/>
+    </form>
+  </body>
+</html>
