@@ -1,0 +1,16 @@
+
+The number of arguments are:  1
+The program is:  WordSearchGame.py
+
+data =  {u'columnCount': 3, u'wordList': [u'air', u'car', u'card', u'cards', u'drag', u'drags', u'sad', u'sadden', u'Sin', u'snail', u'zig'], u'letterIdentifyTime': 2, u'letterPoints': {u'a': 2, u'e': 2, u'i': 2, u'o': 2, u'u': 2, u'y': 2}, u'maxGameTime': 55, u'gameBoard': [[u'N', u'A', u'D'], [u'I', u'Z', u'R']], u'rowCount': 2, u'wordFindTime': 15}
+type(data) =  <type 'dict'>
+
+rowCount =  2
+columnCount =  3
+gameBoard =  [['n', 'a', 'd'], ['i', 'z', 'r']]
+type(gameBoard) =  <type 'list'>
+wordList =  ['snail', 'sadden', 'car', 'air', 'zig', 'drag', 'drags', 'cards', 'sad', 'sin', 'card']
+letterPoints =  {'a': 2, 'e': 2, 'i': 2, 'o': 2, 'u': 2, 'y': 2}
+wordFindTime =  15
+letterIdentifyTime =  2
+maxGameTime =  55
