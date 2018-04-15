@@ -1,0 +1,6 @@
+
+
+
+Write a function to generate the generalized abbreviations of a word.
+
+Company: Google
