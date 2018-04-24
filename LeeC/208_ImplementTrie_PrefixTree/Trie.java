@@ -25,6 +25,7 @@ public class Trie {
     }
 
     public void insert(String word) {
+        System.out.println("word = " + word);
         TrieNode ws = root;
         for(int i = 0; i < word.length(); i++){
             char c = word.charAt(i);
@@ -55,13 +56,17 @@ public class Trie {
         }
         return true;
     }
-    
+   
+    public static void main(String args[]){
+        //Your Trie object will be instantiated and called as such:
+        
+        Trie obj = new Trie();
+        String word = "case";
+        String prefix = "ca";
+        obj.insert(word);
+        boolean param_2 = obj.search(word);
+        boolean param_3 = obj.startsWith(prefix);
+    } 
 }
 
-/**
- * Your Trie object will be instantiated and called as such:
- * Trie obj = new Trie();
- * obj.insert(word);
- * boolean param_2 = obj.search(word);
- * boolean param_3 = obj.startsWith(prefix);
- */
+
