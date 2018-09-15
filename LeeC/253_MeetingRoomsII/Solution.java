@@ -49,7 +49,12 @@ public class Solution {
 	Interval i3 = new Interval(15, 20);
 	Interval[] intervals = new Interval[] {i1, i2, i3};
 	s1.minMeetingRooms(intervals);
-	
+
+        i1 = new Interval(7,10);
+        i2 = new Interval(2,4);
+        intervals = new Interval[]{i1,i2};
+	s1.minMeetingRooms(intervals);
+    	
 
     }
 }

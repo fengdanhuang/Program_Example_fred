@@ -45,6 +45,29 @@ public class Solution {
         }
     }
 
+    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+        
+        double re;
+        int[] nums3 = new int[nums1.length+nums2.length];
+        
+        int k=0;
+        for(int i=0, j=0; i<nums1.length && j< nums2.length; i++, j++){
+            
+            if(nums1[i]<nums2[j]) nums3[k]=nums1[i];
+            else nums3[k]=nums2[j];
+            
+            k++;
+        }
+        
+        if(nums3.length%2==0){re = ((double)nums3[nums3.length/2]+nums3[nums3.length/2+1])/2;}
+        else{re=(double)nums3[nums3.length/2+1];}
+        
+        return re;
+        
+    }  
+
+
+
     public static void main(String args[]){
         Solution s1 = new Solution();
 

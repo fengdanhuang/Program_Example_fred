@@ -15,7 +15,10 @@ class Solution {
         System.out.println("pattern = " + pattern);
  
         memo = new Result[text.length() + 1][pattern.length() + 1];
-        return dp(0, 0, text, pattern);
+        
+        boolean re = dp(0, 0, text, pattern);
+        System.out.println("re = " + re + "\n");
+        return re;
         
     }
     
@@ -54,10 +57,22 @@ class Solution {
 
 
     public static void main(String args[]){
-	Solution s1 = new Solution();
+	Solution s = new Solution();
 
+        String str = "aa", p="a";
+        s.isMatch(str, p);
 
+        str="aa"; p="a*";
+        s.isMatch(str, p);
+
+        str="ab"; p=".*";
+        s.isMatch(str, p);
+         
+        str="aab"; p="c*a*b";
+        s.isMatch(str, p);
+
+        str="mississippi"; p="mis*is*p*.";
+        s.isMatch(str, p);
     }
-    
-    
+     
 }
