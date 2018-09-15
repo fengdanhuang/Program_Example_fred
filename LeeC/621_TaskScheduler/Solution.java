@@ -10,12 +10,21 @@ class Solution{
 		System.out.println();
 		
 		int[] map = new int[26];
+                for(int i=0; i<map.length; i++)
+                    System.out.print(map[i] + "  ");
+                System.out.println();
         	
 		for (char c: tasks)
             		map[c - 'A']++;
         	
+                for(int i=0; i<map.length; i++)
+                    System.out.print(map[i] + "  ");
+                System.out.println();
+
+
 		Arrays.sort(map);
-        	int time = 0;
+        	
+                int time = 0;
         	while (map[25] > 0) {
             		int i = 0;
             		while (i <= n) {
