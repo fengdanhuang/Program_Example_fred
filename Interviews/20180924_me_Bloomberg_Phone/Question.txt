@@ -1,0 +1,42 @@
+
+
+Implement the printX function. The function should print the follow diagrams:
+
+n=1
+X
+
+n=2
+XX
+XX
+
+n=3
+X X
+ X
+X X
+
+n=4
+X  X
+ XX 
+X  X
+
+
+
+n=5
+X   X
+ X X
+  X
+ X X
+X   X
+
+
+n=10
+X        X
+ X      X
+  X    X
+   X  X
+    XX
+    XX
+   X  X
+  X    X
+ X      X
+X        X
