@@ -1,4 +1,10 @@
 
+class ListNode {
+    int val;
+    ListNode next;
+    ListNode(int x) { val = x; }
+}
+
 
 class Solution {
 
@@ -56,9 +62,14 @@ class Solution {
         return head.next;
     }
 
-    public void main(String argv[]){
+    public static void main(String argv[]){
+        Solution s = new Solution();
+
+        ListNode l1 = new ListNode(2);ListNode l1b = new ListNode(4);ListNode l1c = new ListNode(3);
+        ListNode l2 = new ListNode(5);ListNode l2b = new ListNode(6);ListNode l2c = new ListNode(2);
+        ListNode head = s.addTwoNumbers(l1, l2);
+        s.printList(head);
         
-        ListNode l1 = new ListNode(2);ListNode l1b = new ListNode(4);
 
     }
     
