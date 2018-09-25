@@ -43,6 +43,30 @@ class Solution{
         	return time;
     	}
 
+        public int leastInterval2(char[] tasks, int n) {
+        
+            int[] map = new int[26];
+        
+            for (char c: tasks) map[c - 'A']++;
+        
+            Arrays.sort(map);
+        
+            int max_val = map[25] - 1, idle_slots = max_val * n;
+        
+            for (int i = 24; i >= 0 && map[i] > 0; i--) {
+                idle_slots -= Math.min(map[i], max_val);
+            }
+        
+            int re;
+            if (idle_slots>0){
+                re = idle_slots + task.length;
+            }else{
+                re = task.length;
+            }
+        
+            return re;
+        
+        }
     
 	public static void main(String args[]){
 		Solution s1 = new Solution();
@@ -50,7 +74,7 @@ class Solution{
 		char[] tasks = new char[] {'A','A','A','B','B','B'};
 		int n = 2;
 		s1.leastInterval(tasks, n);	
-	
+	        s1.leastInterval2(tasks, n);
 	}
 }
 

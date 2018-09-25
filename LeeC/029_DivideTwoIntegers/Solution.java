@@ -18,12 +18,17 @@ class Solution {
         
         long pDivisor = Math.abs((long)divisor);
 
+        System.out.println("pDividend = " + pDividend);
+        System.out.println("pDivisor = " + pDivisor);
+  
         int result = 0;
         
         while(pDividend>=pDivisor){
             
             //calculate number of left shifts
-            int numShift = 0;    
+            int numShift = 0;   
+            
+                           
             while(pDividend>=(pDivisor<<numShift)){
                 numShift++;
             }
@@ -34,13 +39,20 @@ class Solution {
         }
 
         if((dividend>0 && divisor>0) || (dividend<0 && divisor<0)){
-            System.out.println("result = " + result);
+            System.out.println("result = " + result + "\n");
             return result;
         }else{
-            System.out.println("result = " + result);
+            System.out.println("result = " + result + "\n");
             return -result;
         }
         
+    }
+
+    public int divide_wrong(int dividend, int divisor){
+        int result2 = dividend /divisor;
+        System.out.println("result2 = " + result2 + "\n");
+        
+        return result2;
     }
 
     public static void main(String args[]){
@@ -52,6 +64,10 @@ class Solution {
         
         dividend = 7; divisor = -3;
         s.divide(dividend, divisor);
+
+        dividend = -2147483648; divisor = -1;
+        s.divide(dividend, divisor);
+        s.divide_wrong(dividend, divisor);
     }
 
 }

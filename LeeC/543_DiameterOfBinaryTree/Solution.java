@@ -22,6 +22,7 @@ class Solution {
     }
     
     private int maxDepth(TreeNode root) {
+        
         if (root == null) return 0;
        
 	System.out.println("\n    maxDepth(" + "root=" + root.val + ")");

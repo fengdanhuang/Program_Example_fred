@@ -1,6 +1,7 @@
 
 import java.util.ArrayList;
-
+import java.util.LinkedList;
+import java.util.*;
 
 // Definition for an interval.
  
@@ -46,6 +47,40 @@ class Solution {
         return merged;
     }
 
+    public List<Interval> merge1(List<Interval> intervals) {
+        
+        if (intervals.size()<=1) {return intervals;}
+        
+        List<Interval> r = new ArrayList<>();
+        
+        int n = intervals.size();
+        int[] starts = new int[intervals.size()];
+        int[] ends = new int[intervals.size()];
+        
+        for (int i = 0; i< n ; i++) {
+            Interval t = intervals.get(i);
+            starts[i] = t.start;
+            ends[i] = t.end;
+        }
+        Arrays.sort(starts);
+        Arrays.sort(ends);
+        
+        int start = starts[0];
+        int end = ends[0];
+        for (int i = 0; i < n; i++) {
+            if (starts[i] > end) {
+                r.add(new Interval(start, end));
+                start = starts[i];
+            } 
+            end = ends[i];
+        }
+        if (r.isEmpty() || r.get(r.size()-1).end < end) {
+            r.add(new Interval(start, end));
+        }
+
+        return r;
+    }
+
     
     public static void main(String args[]){
 	Solution s1 = new Solution();
@@ -55,8 +90,10 @@ class Solution {
 	Interval i3 = new Interval(8,10);
 	Interval i4 = new Interval(15,18);
 	
-	List<Interval> in = new LinkedList.asList(i1,i2,i3,i4);
-	s1.merge(in);    		
+	//List<Interval> in = new LinkedList.asList(i1,i2,i3,i4);
+	List<Interval> l1 = new LinkedList();
+        s1.merge(in);    
+        s1.merge1(in);		
     }
 
 }
