@@ -45,7 +45,7 @@ public class Solution {
         }
     }
 
-    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+    public double findMedianSortedArrays2(int[] nums1, int[] nums2) {
         
         double re;
         int[] nums3 = new int[nums1.length+nums2.length];
@@ -61,7 +61,8 @@ public class Solution {
         
         if(nums3.length%2==0){re = ((double)nums3[nums3.length/2]+nums3[nums3.length/2+1])/2;}
         else{re=(double)nums3[nums3.length/2+1];}
-        
+       
+        System.out.println("re = " + re); 
         return re;
         
     }  
@@ -70,7 +71,14 @@ public class Solution {
 
     public static void main(String args[]){
         Solution s1 = new Solution();
+       
+        int[] num1 = new int[]{1,3};
+        int[] num2 = new int[]{2};
+        s1.findMedianSortedArrays(num1, num2);
 
+        num1 = new int[]{1,2};
+        num2 = new int[]{3,4};
+        s1.findMedianSortedArrays2(num1, num2);
     }    
     
 }
