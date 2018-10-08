@@ -1,7 +1,7 @@
 
 
 
-class Solution {
+class Solution_charArray {
     
     public String reverseString(String s) {
        

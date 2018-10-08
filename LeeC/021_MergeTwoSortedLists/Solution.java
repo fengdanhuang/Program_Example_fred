@@ -39,7 +39,8 @@ class Solution {
     }
 
     public static void main(String args[]){
-        
+        ListNode l1 = new ListNode(1);ListNode l11 = new ListNode(2);ListNode l111 = new ListNode(4);
+        l1.next = l11;l11.next = l111;  
 
     }
 }
