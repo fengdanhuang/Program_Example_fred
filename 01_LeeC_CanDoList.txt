@@ -17,6 +17,7 @@ A. Can-Write List:
       	Direct Way
 242.Valid Anagram:
       	Freq Array
+	Sort Char Array & Compare Char
 283.Move Zeroes  
 	Two pointer with for loop 
 =======================================================================
