@@ -1,0 +1,133 @@
+
+=======================================================================
+Java Integer
+    
+	Constant:
+    		Integer.MIN_VALUE: 2147483647
+    		Integer.MAX_VALUE: -2147483648
+
+=======================================================================
+Java char
+        
+        Declare:
+		char ch = 'a';
+    	Loop over char array:
+        	for(char ch:str.toCharArray()){
+========================================================================
+Java Character
+	
+	Attributes:
+        
+	Methods:
+		Character.isDigit([char])
+
+======================================================================
+Java Array
+	
+	Declare:	
+		int[] nums = new int[10];
+	
+	Attributes:
+		nums.length
+	Methods:
+		Arrays.sort([Array])
+		Arrays.fill([Array], 1);
+	
+	Loop over elements in Array:
+		for (int i=0; i<[Array].length; i++) {}
+		for (int i: [Array]) {}
+	
+	Robust Check:
+		if (nums.length == 0) return 0;
+		if (nums == null || nums.length == 0) {return 0;}
+=======================================================================
+Java String
+	
+	Declare:
+		String str = "abc";
+		String str = new String("abc");
+
+	Methods:
+		str.length()
+		str.equals(str)
+		str.toCharArray()
+		str.charAt([int])
+             	str.isEmpty()
+	
+	Loop over characters in String:
+		for(int i=0; i<s.length(); i++){}
+
+	Robust Check:
+		if (s == null || s.length() == 0) {return 0;}
+=======================================================================
+Java StringBuilder
+
+	Declare:
+		StringBuilder sb = new StringBuilder();
+		String str = new String("abc");
+
+	Methods：
+		sb.append(str)
+		sb.toString()
+		sb.reverse()
+=======================================================================
+Java Stack
+
+	Declere:
+		Stack stk = new Stack();
+		int i = 10;
+	Methods:
+		stk.push(i)
+		stk.pop(i)
+
+	Loop Over Stack:
+		for(int i:stk){}
+=======================================================================
+Java HashSet
+
+	Declare:
+		HashSet<Character> set = new HashSet<>();
+		char ch = 'a';
+	Methods: 
+		set.size()
+		set.add(ch)
+		set.contains(ch)
+	
+	Loop Over HashSet:
+		for (char ch:set) {}
+=======================================================================
+Java HashMap
+
+	Declare:
+		HashMap<Character, Integer> map = new HashMap<>();
+		char key = 'k';
+		int i = 2;
+	Methods:
+		map.containsKey()
+		map.put(key,i)
+		map.get(key)
+
+	Loop Over HashMap:
+		
+=======================================================================
+Java ArrayList
+
+	Declare:
+		ArrayList<Integer> al = new ArrayList<>();
+
+	Methods:
+		al.size()
+		al.get([int])
+=======================================================================
+Java Math
+	
+	Methods:
+		Math.abs([int])
+		Math.max([int], [int])
+=======================================================================
+Python Function
+
+	Xrange(A,B)
+	abs()
+	int()
+	str()
