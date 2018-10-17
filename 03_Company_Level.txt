@@ -1,4 +1,37 @@
 Oracle:
-
-
+        Software Developer 2,           Member of Technical Staff  
+        Software Developer 3,           Senior Software Engineer
+        Software Developer 4,           Principal Member of Technical Staff 
+        Software Developer 5,           Consulting Member of Technical Staff
+        Software Developer Architect,
+                                               Manager Level M3
+        Software Development Director,         Manager Level M4
+        Software Development Senior Director,  Manager Level M5
+        Software Development VP,               Manager Level M6
+        Product Development Senior VP,         Manager Level M7
+        Executive Vice President,              Manager Level M8
+                                               Manager Level M9
+        Executive Chairman & CTO,              Manager Level M10
+        
 Walmart Lab:
+        Software Engineer 3, Basic
+        Software Engineer 4, Senior
+        Software Engineer 5, Staff
+        Software Engineer 6, ( )
+        Software Engineer 7, Distinguish
+        
+Microsoft:
+        79, Basic
+        80,
+        81,
+        82,
+        83,
+       
+Google:
+        1, Basic
+        2,
+        3,
+        4,
+        5,
+        6, Very Hard to reach
+    
