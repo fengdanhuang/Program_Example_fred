@@ -71,7 +71,8 @@ D. Know:
 157.Read N Characters Given Read4 
 173.Binary Search Tree Iterator    
 199.Binary Tree Right Side View    
-200.Number of Islands    
+200.Number of Islands  
+204.Count Primes  
 206.Reverse Linked List    
 207.Course Schedule    
 208.Implement Trie (Prefix Tree)  
