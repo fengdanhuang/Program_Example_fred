@@ -20,6 +20,8 @@ A. Can-Write List:
 242.Valid Anagram:
       	Freq Array
 	Sort Char Array & Compare Char
+268. Missing Number:
+        Sort and Find
 283.Move Zeroes  
 	Two pointer with for loop 
 326.Power of Three 
