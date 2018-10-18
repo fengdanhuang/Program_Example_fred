@@ -22,6 +22,8 @@ A. Can-Write List:
 	Sort Char Array & Compare Char
 283.Move Zeroes  
 	Two pointer with for loop 
+326.Power of Three 
+        Direct Way
 412. Fizz Buzz
         Direct Way: Add ArrayList by for loop.
 =======================================================================
