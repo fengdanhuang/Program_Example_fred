@@ -17,6 +17,8 @@ A. Can-Write List:
         DP
 104. Maximum Depth of Binary Tree
         Recursive(Divide and Conquer)
+169. Majority Element
+	Sorting
 171.Excel Sheet Column Number: 
       	Direct Way
 242.Valid Anagram:
