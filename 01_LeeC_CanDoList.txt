@@ -44,7 +44,8 @@ B. Familiar(Almost Can Write):
 94.Binary Tree Inorder Traversal
 125.Valid Palindrome
       Two pointer with for loop 
-
+371.Sum of Two Integers 
+      Bit Manipulation
 =======================================================================
 C. Understand:
 
@@ -77,6 +78,7 @@ D. Know:
 145.Binary Tree Postorder Traversal  
 146.LRU Cache    
 157.Read N Characters Given Read4 
+166.Fraction to Recurring Decimal
 173.Binary Search Tree Iterator    
 199.Binary Tree Right Side View    
 200.Number of Islands  
