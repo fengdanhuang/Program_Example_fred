@@ -59,6 +59,7 @@ D. Know:
 43.Multiply Strings
 46.Permutations
 54.Spiral Matrix
+62.Unique Paths  
 98.Validate Binary Search Tree
 100.Same Tree
 101.Symmetric Tree 
