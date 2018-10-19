@@ -13,6 +13,8 @@ A. Can-Write List:
       	Stack
 21.Merge Two Sorted Lists:
       	Direct Way(While loop)
+50.Pow(x, n):
+        DP
 104. Maximum Depth of Binary Tree
         Recursive(Divide and Conquer)
 171.Excel Sheet Column Number: 
