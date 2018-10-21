@@ -9,6 +9,9 @@ A. Can-Write List:
      	HashSet & Two pointer
 4.Median of Two Sorted Arrays:
      	Brute Force(For loop) 
+11.Container With Most Water :
+        Brute Force(n^2 for loop)
+	Two pointer:(left,right)
 20.Valid Parentheses:
       	Stack
 21.Merge Two Sorted Lists:
@@ -58,7 +61,6 @@ C. Understand:
 =======================================================================
 D. Know:
 
-11.Container With Most Water 
 12.Integer to Roman  
 13.Roman to Integer 
 26.Remove Duplicates from Sorted Array
