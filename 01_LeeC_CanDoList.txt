@@ -68,6 +68,8 @@ D. Know:
 43.Multiply Strings
 46.Permutations
 54.Spiral Matrix
+84.Largest Rectangle in Histogram 
+    Stack
 98.Validate Binary Search Tree
 100.Same Tree
 101.Symmetric Tree 
@@ -79,13 +81,16 @@ D. Know:
 110.Balanced Binary Tree 
 124.Binary Tree Maximum Path Sum
 128.Longest Consecutive Sequence
+140.Word Break II    
 144.Binary Tree Preorder Traversal 
 145.Binary Tree Postorder Traversal  
 146.LRU Cache 
 148.Sort List
+152.Maximum Product Subarray 
 157.Read N Characters Given Read4 
 166.Fraction to Recurring Decimal
-173.Binary Search Tree Iterator    
+173.Binary Search Tree Iterator 
+179.Largest Number 
 199.Binary Tree Right Side View    
 200.Number of Islands  
 204.Count Primes  
@@ -105,11 +110,18 @@ D. Know:
 257.Binary Tree Paths    
 274.H-Index    
 278.First Bad Version  
+279.Perfect Squares:
+     DP
 295.Find Median from Data Stream    
 297.Serialize and Deserialize Binary Tree    
+309.Best Time to Buy and Sell Stock with Cooldown
+312.Burst Balloons
+      DP
 314.Binary Tree Vertical Order Traversal
 329.Longest Increasing Path in a Matrix:
       DFS + Memoization
+378.Kth Smallest Element in a Sorted Matrix：
+      Binary Search
 449.Serialize and Deserialize BST    
 460.LFU Cache    
 461.Hamming Distance   
