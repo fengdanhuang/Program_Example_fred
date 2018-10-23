@@ -20,6 +20,8 @@ A. Can-Write List:
         DP
 104. Maximum Depth of Binary Tree
         Recursive(Divide and Conquer)
+151. Reverse Words in a String
+        StringBuilder append
 169. Majority Element
 	Sorting
 171.Excel Sheet Column Number: 
@@ -49,8 +51,15 @@ B. Familiar(Almost Can Write):
 94.Binary Tree Inorder Traversal
 125.Valid Palindrome
       Two pointer with for loop 
+176.Second Highest Salary
+198.House Robber
+      DP
+214. Shortest Palindrome
+      Reverse char inside a string.
 371.Sum of Two Integers 
       Bit Manipulation
+873.Length of Longest Fibonacci Subsequence
+      HashSet
 =======================================================================
 C. Understand:
 
@@ -61,6 +70,7 @@ C. Understand:
 =======================================================================
 D. Know:
 
+5. Longest Palindromic Substring
 12.Integer to Roman  
 13.Roman to Integer 
 26.Remove Duplicates from Sorted Array
