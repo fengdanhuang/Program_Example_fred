@@ -34,7 +34,7 @@ A. Can-Write List:
 283.Move Zeroes  
 	Two pointer with for loop 
 326.Power of Three 
-        Direct Way
+        Direct Way: base of 26
 412. Fizz Buzz
         Direct Way: Add ArrayList by for loop.
 =======================================================================
