@@ -61,6 +61,8 @@ B. Familiar(Almost Can Write):
       Reverse char inside a string.
 371.Sum of Two Integers 
       Bit Manipulation
+683. K Empty Slots
+      Sliding Window
 873.Length of Longest Fibonacci Subsequence
       HashSet
 =======================================================================
