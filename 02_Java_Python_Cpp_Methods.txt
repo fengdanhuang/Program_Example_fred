@@ -1,23 +1,21 @@
 
 =======================================================================
 Java Integer
-    
 	Constant:
     		Integer.MIN_VALUE: 2147483647
     		Integer.MAX_VALUE: -2147483648
+		
 	Static Method:
 	        Integer.parseInt("25")
 
 =======================================================================
-Java char
-        
+Java char 
         Declare:
 		char ch = 'a';
     	Loop over char array:
         	for(char ch:str.toCharArray()){
 ========================================================================
-Java Character
-	
+Java Character	
 	Attributes:
         
 	Static Methods:
