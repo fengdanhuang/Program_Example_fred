@@ -39,6 +39,8 @@ A. Can-Write List:
         Direct Way: Add ArrayList by for loop.
 482. License Key Formatting
         Direct Way: StringBuilder
+929. Unique Email Addresses
+        HashSet
 	
 =======================================================================
 B. Familiar(Almost Can Write):
