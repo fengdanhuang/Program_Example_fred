@@ -55,6 +55,7 @@ Java String
              	str.isEmpty()
 	        str.indexOf()
 		str.replaceAll()
+		str.toUpperCase()
 	Loop over characters in String:
 		for(int i=0; i<s.length(); i++){}
 
@@ -71,6 +72,8 @@ Java StringBuilder
 		sb.append(str)
 		sb.toString()
 		sb.reverse()
+		sb.length()
+		sb.insert(i, '-')
 =======================================================================
 Java Stack
 
