@@ -5,6 +5,8 @@ Java Integer
 	Constant:
     		Integer.MIN_VALUE: 2147483647
     		Integer.MAX_VALUE: -2147483648
+	Static Method:
+	        Integer.parseInt("25")
 
 =======================================================================
 Java char
@@ -18,35 +20,33 @@ Java Character
 	
 	Attributes:
         
-	Methods:
+	Static Methods:
 		Character.isDigit([char])
 
 ======================================================================
-Java Array
-	
-	Declare:	
-		int[] nums = new int[10];
-	
-	Attributes:
-		nums.length
-	Methods:
+Java Arrays Class
+        Static Methods:
 		Arrays.sort([Array])
 		Arrays.fill([Array], 1);
-	
+======================================================================
+Java Array	
+	Declare:	
+		int[] nums = new int[10];	
+	Attributes:
+		nums.length
 	Loop over elements in Array:
 		for (int i=0; i<[Array].length; i++) {}
-		for (int i: [Array]) {}
-	
+		for (int i: [Array]) {}	
 	Robust Check:
 		if (nums.length == 0) return 0;
 		if (nums == null || nums.length == 0) {return 0;}
 =======================================================================
-Java String
-	
+Java String	
+
 	Declare:
 		String str = "abc";
 		String str = new String("abc");
-
+		
 	Methods:
 		str.length()
 		str.equals(str)
@@ -56,6 +56,10 @@ Java String
 	        str.indexOf()
 		str.replaceAll()
 		str.toUpperCase()
+		
+	Static Methods:
+	        String.format("%02d:%02d", ans / 60, ans % 60)
+		
 	Loop over characters in String:
 		for(int i=0; i<s.length(); i++){}
 
