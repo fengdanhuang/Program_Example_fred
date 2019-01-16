@@ -22,7 +22,7 @@ A. Can-Write List:
         Recursive(Divide and Conquer)
 151. Reverse Words in a String
         StringBuilder append
-159. 159. Longest Substring with At Most Two Distinct Characters
+159. Longest Substring with At Most Two Distinct Characters
         Freq Array
 169. Majority Element
 	Sorting
