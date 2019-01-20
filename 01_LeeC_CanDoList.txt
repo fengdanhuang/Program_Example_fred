@@ -43,6 +43,8 @@ A. Can-Write List:
 	Two pointer with for loop 
 326.Power of Three 
         Direct Way: base of 26
+349. Intersection of Two Arrays
+        HashSet and Loop Over array
 412. Fizz Buzz
         Direct Way: Add ArrayList by for loop.
 482. License Key Formatting
