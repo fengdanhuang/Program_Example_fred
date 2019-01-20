@@ -22,6 +22,8 @@ A. Can-Write List:
         Direct Way using array
 104. Maximum Depth of Binary Tree
         Recursive(Divide and Conquer)
+125.Valid Palindrome
+        Two pointer with for loop 
 151. Reverse Words in a String
         StringBuilder append
 159. Longest Substring with At Most Two Distinct Characters
@@ -60,8 +62,6 @@ B. Familiar(Almost Can Write):
     DP
 78.Subsets    
 94.Binary Tree Inorder Traversal
-125.Valid Palindrome
-      Two pointer with for loop 
 176.Second Highest Salary
 198.House Robber
       DP
