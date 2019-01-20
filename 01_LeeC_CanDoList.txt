@@ -26,6 +26,8 @@ A. Can-Write List:
         StringBuilder append
 159. Longest Substring with At Most Two Distinct Characters
         Freq Array
+161. One Edit Distance	
+        Direct way
 169. Majority Element
 	Sorting
 171.Excel Sheet Column Number: 
