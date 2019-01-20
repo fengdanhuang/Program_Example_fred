@@ -18,6 +18,8 @@ A. Can-Write List:
       	Direct Way(While loop)
 50.Pow(x, n):
         DP
+66.Plus One:
+        Direct Way using array
 104. Maximum Depth of Binary Tree
         Recursive(Divide and Conquer)
 151. Reverse Words in a String
