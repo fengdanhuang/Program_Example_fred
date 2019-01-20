@@ -55,7 +55,7 @@ Java String
 		str.replaceAll()
 		str.toUpperCase()
 		str.startsWith(strb, i)
-		
+		str.substring(i, j)
 	Static Methods:
 	        String.format("%02d:%02d", ans / 60, ans % 60)
 		
