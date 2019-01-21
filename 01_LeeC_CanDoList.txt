@@ -43,6 +43,9 @@ A. Can-Write List:
         Sort and Find
 283.Move Zeroes  
 	Two pointer with for loop 
+285. Inorder Successor in BST
+        Iteration.
+	Recursion
 326.Power of Three 
         Direct Way: base of 26
 349. Intersection of Two Arrays
