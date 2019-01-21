@@ -41,6 +41,8 @@ A. Can-Write List:
 	Sort Char Array & Compare Char
 268. Missing Number:
         Sort and Find
+270. Closest Binary Search Tree Value:
+        Traverse BST and Recursion
 283.Move Zeroes  
 	Two pointer with for loop 
 285. Inorder Successor in BST
