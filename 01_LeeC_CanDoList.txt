@@ -58,10 +58,11 @@ A. Can-Write List:
 	
 =======================================================================
 B. Familiar(Almost Can Write):
-
-49.Group Anagrams
-62.Unique Paths:
-    DP
+23. Merge k Sorted Lists
+       Merge 2 sorted List + Binary Search
+49. Group Anagrams
+62. Unique Paths:
+        DP
 70.Climbing Stairs:
     DP
 78.Subsets    
