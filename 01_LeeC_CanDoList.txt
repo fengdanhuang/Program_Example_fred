@@ -45,6 +45,8 @@ A. Can-Write List:
         Direct Way: base of 26
 349. Intersection of Two Arrays
         HashSet and Loop Over array
+387. First Unique Character in a String
+        Freq Array
 412. Fizz Buzz
         Direct Way: Add ArrayList by for loop.
 482. License Key Formatting
