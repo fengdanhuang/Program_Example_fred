@@ -26,6 +26,7 @@ Java Arrays Class
         Static Methods:
 		Arrays.sort([Array])
 		Arrays.fill([Array], 1);
+		Arrays.asList("0", "1", "8")
 ======================================================================
 Java Array	
 	Declare:	
