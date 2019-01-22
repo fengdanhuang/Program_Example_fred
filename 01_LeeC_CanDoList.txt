@@ -22,6 +22,8 @@ A. Can-Write List:
         DP
 66.Plus One:
         Direct Way using array
+69. Sqrt(x)
+        Binary Search   Time: O(log(n)).  Space: O(1)
 104. Maximum Depth of Binary Tree
         Recursive(Divide and Conquer)
 125.Valid Palindrome
