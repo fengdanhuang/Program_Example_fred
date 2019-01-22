@@ -34,9 +34,11 @@ A. Can-Write List:
         Direct way
 169. Majority Element
 	Sorting
-171.Excel Sheet Column Number: 
+171. Excel Sheet Column Number: 
       	Direct Way
-242.Valid Anagram:
+215. Kth Largest Element in an Array
+        Sort     Time: O(nlogn). Space: O(1)
+242. Valid Anagram:
       	Freq Array
 	Sort Char Array & Compare Char
 268. Missing Number:
