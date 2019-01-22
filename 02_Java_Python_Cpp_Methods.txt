@@ -71,7 +71,6 @@ Java StringBuilder
 	Declare:
 		StringBuilder sb = new StringBuilder();
 		String str = new String("abc");
-
 	Methods：
 		sb.append(str)
 		sb.toString()
@@ -81,7 +80,7 @@ Java StringBuilder
 =======================================================================
 Java Stack
 
-	Declere:
+	Declare:
 		Stack stk = new Stack();
 		int i = 10;
 	Methods:
@@ -122,14 +121,14 @@ Java ArrayList
 
 	Declare:
 		ArrayList<Integer> al = new ArrayList<>();
-
 	Methods:
 		al.size()
 		al.get([int])
+		al.add(new Interval(begin[i-1], end[i-1]))
 =======================================================================
 Java Math
 	
-	Methods:
+	Static Methods:
 		Math.abs([int])
 		Math.max([int], [int])
 =======================================================================
