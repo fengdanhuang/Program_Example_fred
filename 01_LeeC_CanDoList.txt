@@ -56,6 +56,8 @@ A. Can-Write List:
         Direct Way: base of 26
 349. Intersection of Two Arrays
         HashSet and Loop Over array
+360. Sort Transformed Array
+        Direct Way and Arrays Sort.   Time: O(nlog(n)).   Space: O(n)
 387. First Unique Character in a String
         Freq Array
 412. Fizz Buzz
