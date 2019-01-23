@@ -93,6 +93,16 @@ Java Stack
 	Loop Over Stack:
 		for(int i:stk){}
 =======================================================================
+Java Queue (Interface)
+   
+       Declare:
+               Queue<TreeNode> q = new LinkedList<>();
+       Methods:
+               q.add(root);
+	       q.isEmpty() -> Boolean re
+	       q.poll() -> Object re
+	       q.size() -> int size
+=======================================================================
 Java HashSet
 
 	Declare:
