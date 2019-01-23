@@ -3,46 +3,46 @@
 A. Can-Write List:
 
 1.Two Sum: 
-     	Direct Way(2D for loop)
-     	HashMap
+     	Direct Way(2D for loop)                 Time: O(n^2).  Space: O(1)
+     	HashMap                                 Time: O(n).    Space: O(n)
 3.Longest Substring Without Repeating Characters:
-     	HashSet & Two pointer
-4.Median of Two Sorted Arrays:
-     	Brute Force(For loop) 
-11.Container With Most Water :
+     	HashSet & Two pointer(sliding Window) . Time: O(n).    Space: O(min(m,n))              
+4.Median of Two Sorted Arrays
+     	Brute Force(For loop)                   Time: O((m+n)log(m+n)). Space: O(m+n) 
+11.Container With Most Water
         Brute Force(n^2 for loop)
 	Two pointer:(left,right)
 20.Valid Parentheses:
-      	Stack
+      	Stack                                   Time: O(n). Space: O(n)
 21.Merge Two Sorted Lists:
-      	Direct Way(While loop)
+      	Iteration                               Time: O(max(m,n))(O(m+n))?). Space:O(1)
 26.Remove Duplicates from Sorted Array 
-        Two pointer   Time: O(n).  Space: O(1)
+        Two pointer                             Time: O(n).  Space: O(1)
 50.Pow(x, n):
-        DP
+        Brute Force                             Time: O(n). Space: O(1)
 66.Plus One:
-        Direct Way using array
+        Direct Way (Brute Force)                Time: O(n). Space: O(n)
 69. Sqrt(x)
-        Binary Search   Time: O(log(n)).  Space: O(1)
+        Binary Search                           Time: O(log(n)).  Space: O(1)
 104. Maximum Depth of Binary Tree
-        Recursive(Divide and Conquer)
-125.Valid Palindrome
-        Two pointer with for loop 
+        Recursion(Divide and Conquer)           Time: O(n). Space: O(n)
+125.Valid Palindrome                            
+        Two pointer with for loop               Time: O(n). Space: O(1)
 151. Reverse Words in a String
-        StringBuilder append
+        Brute Force(StringBuilder append)       Time: O(n). Space: O(1)
 159. Longest Substring with At Most Two Distinct Characters
         Freq Array
 161. One Edit Distance	
         Direct way
 169. Majority Element
-	Sorting
+	Sorting                                 Time: O(nlog(n)). Space:O(1)
 171. Excel Sheet Column Number: 
       	Direct Way
 215. Kth Largest Element in an Array
-        Sort     Time: O(nlogn). Space: O(1)
+        Sort                                    Time: O(nlogn). Space: O(1)
 242. Valid Anagram:
-      	Freq Array
-	Sort Char Array & Compare Char
+      	Freq Array                              Time: O(max(m,n)). Space: O(1)
+	Sort Char Array & Compare Char          Time: O(nlog(n)). Space: O(n)
 268. Missing Number:
         Sort and Find
 270. Closest Binary Search Tree Value:
