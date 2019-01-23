@@ -7,7 +7,6 @@ Java Integer
 		
 	Static Method:
 	        Integer.parseInt("25")
-
 =======================================================================
 Java char 
         Declare:
@@ -103,8 +102,7 @@ Java Queue (Interface)
 	       q.poll() -> Object re (Remove head)
 	       q.remove() -> Object re (Basically same as poll())
 	       q.peek() -> Object re (Don't remove head)
-	       q.size() -> int size
-	       
+	       q.size() -> int size	       
 =======================================================================
 Java HashSet
 
@@ -130,8 +128,7 @@ Java HashMap
 		map.put(key,i)
 		map.get(key)
 
-	Loop Over HashMap:
-		
+	Loop Over HashMap:		
 =======================================================================
 Java ArrayList
 
@@ -141,6 +138,13 @@ Java ArrayList
 		al.size()
 		al.get([int])
 		al.add(new Interval(begin[i-1], end[i-1]))
+=======================================================================
+Java LinkedList
+
+        Declare:
+	        LinkedList<Integer> lk = new LinkedList<>();
+	Methods:
+	        
 =======================================================================
 Java Math
 	
