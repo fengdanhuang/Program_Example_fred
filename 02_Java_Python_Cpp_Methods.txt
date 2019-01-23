@@ -19,8 +19,9 @@ Java Character
 	Attributes:
         
 	Static Methods:
-		Character.isDigit([char])
-
+		Character.isDigit(chr)
+		Charactoer.isLetter(chr)
+                Character.isLetterOrDigit(chr)
 ======================================================================
 Java Arrays Class
         Static Methods:
@@ -55,8 +56,10 @@ Java String
 	        str.indexOf()
 		str.replaceAll()
 		str.toUpperCase()
-		str.startsWith(strb, i)
-		str.substring(i, j)
+		str.startsWith(strb, i) ->
+		str.substring(i, j) ->
+		str.split("\\s+") -> String[] re
+		str.trim()
 	Static Methods:
 	        String.format("%02d:%02d", ans / 60, ans % 60)
 		
@@ -131,6 +134,7 @@ Java Math
 	Static Methods:
 		Math.abs([int])
 		Math.max([int], [int])
+		Math.floor()
 =======================================================================
 Python Function
 
