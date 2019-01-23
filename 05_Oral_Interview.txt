@@ -1,0 +1,195 @@
+
+===========================================================================================================================================================================================
+Data Structure & Algorithm:
+Data Structure定义1:		数据如何组织及在数据上的一组操作
+DataStructure我的定义:		在计算机里如何表示信息.
+Data Structure的2大类:		存储结构和逻辑结构
+Data Structure的2大存储结构:	顺序存储和链式存储
+Data Structure的5大逻辑结构:	线性结构, Queue, Stack, Tree, Graph
+Data Structure的3大操作:		Search, Sort, Select (3S)
+Search的2大类:			
+	静态搜索: Linear Search, Binary Search
+	动态搜索: Hash Table, Binary Search Tree, AVL Tree, B Tree, B+ Tree, Splay Tree
+Sort的2大类:			
+	内部排序:
+		选择类:		Select Sort, Heap Sort
+		插入类:		Insert Sort, Shell Sort
+		交换类:		Bubble Sort, Quick Sort
+		归并排序:	Merge Sort
+	外部排序
+Algorithm的3大Strategy:		
+	Divide&Conquer: 		Merge Sort, Binary Search, Shortest Distance, Matrix Multiplication, 
+	Dynamic Programming:	Matrix Chain Product, 0-1 KnapSack, Longest Common Subsequence, 
+	Greedy:			Kruskal, Fractional KnapSack, 
+Complete Binary Tree: 	
+	Depth:			ceil(log(n))+1
+Sequential Search:
+	# of comparison	n+1 (Unsuccessful)
+	ASL:		(n+1)/2 (Successfule)
+Binary Search:
+	Condition:	Ordered List
+	ASL:		(n+1)/n * log(n+1) - 1 	= log(n+1) - 1 (n>50)
+	Time Complex:	O(logn)
+Block Search:
+	ASL:		(n/s + s)/2 + 1
+Binary Search Tree:
+
+Balanced Binary Tree (AVL Tree):
+	height:		O(log n)	(storing n keys)
+	find:		O(log n) (best)		O(n) (worst, because unbalanced)
+	insert:		O(log n) (best)		O(n) (worst, because unbalanced)
+	remove:		O(log n) (best)		O(n) (worst, because unbalanced)
+B Tree
+
+B+ Tree
+
+Key Tree
+
+Trie Tree
+
+Duplexes Tree
+
+Hash Table
+	Construct Hash Function:
+		1. 直接定址法				H(key) = a*key+b
+		2. 数字分析法	
+		3. 平方取中法
+		4. 折叠法
+		5. 除留余数法				H(key) = key mod p, p<=m
+		6. 随机数法				H(key) = Random(key)
+	Resolve Conflict:
+		1. 开放定址法(Probing)			Hi = (H(key) + di )
+		      1. 线性探测再散列(Linear Probing)	di = 1, 2, 3, .., m-1
+		      2. 二次探测再散列(Quadratic Probing)	di = 1^2, -1^2, 2^2, ... -2^2
+		      3. 伪随机探测再散列			di = 伪随机数序列
+		2. 再哈希法(双重散列法)(Double Hashing)	Hi = Rh(key)
+		3. 链地址法(Seperate Chaining)
+		4. 建立公共溢出区
+Insert Type Sort:
+	Insertion Sort:
+		Time Complex:		O(n^2)	
+		Space Complex:		O(1)	
+		Stability:			Stable
+	Binary insertion sort:
+		Time Complex:		O(n^2)
+	Table Insertion Sort:
+
+	Shell Sort:	
+		Stability:			Unstable
+Exchange Type Sort:
+	Bubble Sort: 		
+		# of Comparison:		n-1(Ideal),  	(n-1)n/2(Worst)
+		# of Move:		0(Ideal), 		3n(n-1)/2(Worst)
+		Time Complex:		O(n^2)	
+		Space Complex:		O(1)
+		Stability:			Stable
+	Qick Sort:			
+		Time Complex: 		O(nlogn)
+		Space Complex:		O(logn)
+		Stability:			Unstable
+Selection Type Sort:
+	Selection Sort:		
+		# of Comparison:		(n-1)n/2
+		# of Move:		0(Ideal),		3(n-1)
+		Time Complex:		O(n^2)
+		Space Complex:		O(1)
+		Stability:			Unstable
+	Tree Selection Sort:
+		
+	Heap Sort:
+		# of Comparison:		< 2n*floor(log(n))
+		Time Complex:		O(nlogn)
+		Space Complex:		O(1)
+		Stability:			Ustable
+Merge Type Sort:
+	Merge Sort:
+		One merge:		O(n)
+		# of merges:		ceil(logn)
+		Time Complex:		O(nlogn)
+		Space Complex:		O(n)
+		Stability:			Stable
+Other Type Sort:
+	Radix sort:
+		Assign:			O(n)
+		Collect:			O(rd)
+		# of Assign-Collect:		d	
+		Time Complex:		O(d(n+rd)) = O(n)
+		Space Complex:		O(rd)  (Linked Radix Sort)
+		Stability:			Stable
+	Tournament Sort:
+		Time Complex:		O(nlogn)
+		Stability:			Stable
+===========================================================================================================================================================================================
+Java:
+Q. What is the differences between C++ and Java?
+A:	1. C++ code runs in a real machine.  Java runs in a virtual machine 
+	2. C++ supports unsigned arithmetic.  Java doesn't. 
+	3. C++'s parameters can be passed by value, pointer, or by reference.  Java's parameters are always passed by value (or, with objects, their references are passed by value). 
+	4. C++ doesn't have garbage collection.  Java has built-in garbage collection 
+	5. C++ allows operator overloading. Java does not. 
+	6. C++ allows multiple inheritance of classes. Java allows single inheritance, but mutiple inheritance the interfaces. 
+	7. C++ has the destructor.  Java does not.
+
+===========================================================================================================================================================================================
+C++:
+Q. What is viritual function?
+A:	1. A virtual member function in a base class expects to be overridden in a derived class
+Q. What is pure virtual function?
+A:	1. A pure virtual function is a virtual member function of a base class that must be overridden.
+Q. What is abstract base class?
+A:	1. An abstract base class is not instantiated, but other classes are derived from it.
+	 2. A class becomes an abstract base class when it contains one or more pure virtual functions.
+
+===========================================================================================================================================================================================
+CUDA:
+Q. How many different kind of memories are in a GPU?
+A:
+ 
+Q. What means coalesced / uncoalesced?
+A:
+ 
+Q. Can you implement a matrix transpose kernel?
+A:
+
+Q. What is a warp?
+A:
+ 
+Q. How many warps can run simultaneously inside a multiprocessor? 
+A:
+
+Q. What is the difference between a block and a thread?
+A:
+ 
+Q. Can thread communicate between them? and blocks?
+A:
+ 
+Q. Can you describe how works a cache?
+A:
+ 
+Q. What is the difference between shared memory and registers?
+A:
+ 
+Q. Which algorithms perform better on the gpu? data bound or cpu bound?
+ A:
+Q. Which steps will you perform to port of an application to cuda ?
+A: 
+Q. What is a barrier ? 
+A:
+Q. What is a Stream ? 
+A:
+Q. Can you describe what means occupancy of a kernel? 
+A:
+Q. What means structure of array vs array of structures? 
+A:
+Local memory is used to store local values that doesn't fit into registers.
+
+If it's a scientific role then expect questions on floating point and numerical accuracy, in particular you should look at the reduction sample in the NVIDIA SDK since that illustrates a whole load of the points in Fabrizio's post too.
+
+
+
+
+
+
+"You have N vectors of length M (N>>M). Tell me how you would go about designing a kernel to evaluate the distance matrix. Pay special attention to the way the problem is sub-divided and to the way the thread co-operation can be used to improve occupancy.
+How would your answer to this question change if M>>N?"
+The idea here is not to get you writing code, but to get you thinking out loud. This shows that you really know how to use GPGPU technology and are not merely regurgitating the user guide.
