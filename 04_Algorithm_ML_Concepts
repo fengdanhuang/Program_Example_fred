@@ -1,4 +1,7 @@
 -----------------------------------------
+binary search can be written in 2 ways: iteration and recursion.
+
+-----------------------------------------
 Complete binary tree
     a binary tree in which every level, except possibly the last, is completely filled, and all nodes are as far left as possible.
 -----------------------------------------
