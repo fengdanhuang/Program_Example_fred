@@ -127,8 +127,11 @@ Java HashMap
 		map.containsKey()
 		map.put(key,i)
 		map.get(key)
-
-	Loop Over HashMap:		
+                map.keySet()
+	Loop Over HashMap:	
+	        for (int key:map.keySet()){
+		
+		}
 =======================================================================
 Java ArrayList
 
@@ -138,6 +141,7 @@ Java ArrayList
 		al.size()
 		al.get([int])
 		al.add(new Interval(begin[i-1], end[i-1]))
+		al.addAll(bucket[i]);
 =======================================================================
 Java LinkedList
 
