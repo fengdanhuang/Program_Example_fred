@@ -1,23 +1,23 @@
 
 ===========================================================================================================================================================================================
 Data Structure & Algorithm:
-Data Structure¶¨Òå1:		Êı¾İÈçºÎ×éÖ¯¼°ÔÚÊı¾İÉÏµÄÒ»×é²Ù×÷
-DataStructureÎÒµÄ¶¨Òå:		ÔÚ¼ÆËã»úÀïÈçºÎ±íÊ¾ĞÅÏ¢.
-Data StructureµÄ2´óÀà:		´æ´¢½á¹¹ºÍÂß¼­½á¹¹
-Data StructureµÄ2´ó´æ´¢½á¹¹:	Ë³Ğò´æ´¢ºÍÁ´Ê½´æ´¢
-Data StructureµÄ5´óÂß¼­½á¹¹:	ÏßĞÔ½á¹¹, Queue, Stack, Tree, Graph
-Data StructureµÄ3´ó²Ù×÷:		Search, Sort, Select (3S)
-SearchµÄ2´óÀà:			
-	¾²Ì¬ËÑË÷: Linear Search, Binary Search
-	¶¯Ì¬ËÑË÷: Hash Table, Binary Search Tree, AVL Tree, B Tree, B+ Tree, Splay Tree
-SortµÄ2´óÀà:			
-	ÄÚ²¿ÅÅĞò:
-		Ñ¡ÔñÀà:		Select Sort, Heap Sort
-		²åÈëÀà:		Insert Sort, Shell Sort
-		½»»»Àà:		Bubble Sort, Quick Sort
-		¹é²¢ÅÅĞò:	Merge Sort
-	Íâ²¿ÅÅĞò
-AlgorithmµÄ3´óStrategy:		
+Data Structureå®šä¹‰1:		æ•°æ®å¦‚ä½•ç»„ç»‡åŠåœ¨æ•°æ®ä¸Šçš„ä¸€ç»„æ“ä½œ
+DataStructureæˆ‘çš„å®šä¹‰:		åœ¨è®¡ç®—æœºé‡Œå¦‚ä½•è¡¨ç¤ºä¿¡æ¯.
+Data Structureçš„2å¤§ç±»:		å­˜å‚¨ç»“æ„å’Œé€»è¾‘ç»“æ„
+Data Structureçš„2å¤§å­˜å‚¨ç»“æ„:	é¡ºåºå­˜å‚¨å’Œé“¾å¼å­˜å‚¨
+Data Structureçš„5å¤§é€»è¾‘ç»“æ„:	çº¿æ€§ç»“æ„, Queue, Stack, Tree, Graph
+Data Structureçš„3å¤§æ“ä½œ:		Search, Sort, Select (3S)
+Searchçš„2å¤§ç±»:			
+	é™æ€æœç´¢: Linear Search, Binary Search
+	åŠ¨æ€æœç´¢: Hash Table, Binary Search Tree, AVL Tree, B Tree, B+ Tree, Splay Tree
+Sortçš„2å¤§ç±»:			
+	å†…éƒ¨æ’åº:
+		é€‰æ‹©ç±»:		Select Sort, Heap Sort
+		æ’å…¥ç±»:		Insert Sort, Shell Sort
+		äº¤æ¢ç±»:		Bubble Sort, Quick Sort
+		å½’å¹¶æ’åº:	Merge Sort
+	å¤–éƒ¨æ’åº
+Algorithmçš„3å¤§Strategy:		
 	Divide&Conquer: 		Merge Sort, Binary Search, Shortest Distance, Matrix Multiplication, 
 	Dynamic Programming:	Matrix Chain Product, 0-1 KnapSack, Longest Common Subsequence, 
 	Greedy:			Kruskal, Fractional KnapSack, 
@@ -51,20 +51,20 @@ Duplexes Tree
 
 Hash Table
 	Construct Hash Function:
-		1. Ö±½Ó¶¨Ö··¨				H(key) = a*key+b
-		2. Êı×Ö·ÖÎö·¨	
-		3. Æ½·½È¡ÖĞ·¨
-		4. ÕÛµş·¨
-		5. ³ıÁôÓàÊı·¨				H(key) = key mod p, p<=m
-		6. Ëæ»úÊı·¨				H(key) = Random(key)
+		1. ç›´æ¥å®šå€æ³•				H(key) = a*key+b
+		2. æ•°å­—åˆ†ææ³•	
+		3. å¹³æ–¹å–ä¸­æ³•
+		4. æŠ˜å æ³•
+		5. é™¤ç•™ä½™æ•°æ³•				H(key) = key mod p, p<=m
+		6. éšæœºæ•°æ³•				H(key) = Random(key)
 	Resolve Conflict:
-		1. ¿ª·Å¶¨Ö··¨(Probing)			Hi = (H(key) + di )
-		      1. ÏßĞÔÌ½²âÔÙÉ¢ÁĞ(Linear Probing)	di = 1, 2, 3, .., m-1
-		      2. ¶ş´ÎÌ½²âÔÙÉ¢ÁĞ(Quadratic Probing)	di = 1^2, -1^2, 2^2, ... -2^2
-		      3. Î±Ëæ»úÌ½²âÔÙÉ¢ÁĞ			di = Î±Ëæ»úÊıĞòÁĞ
-		2. ÔÙ¹şÏ£·¨(Ë«ÖØÉ¢ÁĞ·¨)(Double Hashing)	Hi = Rh(key)
-		3. Á´µØÖ··¨(Seperate Chaining)
-		4. ½¨Á¢¹«¹²Òç³öÇø
+		1. å¼€æ”¾å®šå€æ³•(Probing)			Hi = (H(key) + di )
+		      1. çº¿æ€§æ¢æµ‹å†æ•£åˆ—(Linear Probing)	di = 1, 2, 3, .., m-1
+		      2. äºŒæ¬¡æ¢æµ‹å†æ•£åˆ—(Quadratic Probing)	di = 1^2, -1^2, 2^2, ... -2^2
+		      3. ä¼ªéšæœºæ¢æµ‹å†æ•£åˆ—			di = ä¼ªéšæœºæ•°åºåˆ—
+		2. å†å“ˆå¸Œæ³•(åŒé‡æ•£åˆ—æ³•)(Double Hashing)	Hi = Rh(key)
+		3. é“¾åœ°å€æ³•(Seperate Chaining)
+		4. å»ºç«‹å…¬å…±æº¢å‡ºåŒº
 Insert Type Sort:
 	Insertion Sort:
 		Time Complex:		O(n^2)	
@@ -143,51 +143,23 @@ A:	1. An abstract base class is not instantiated, but other classes are derived 
 ===========================================================================================================================================================================================
 CUDA:
 Q. How many different kind of memories are in a GPU?
-A:
- 
 Q. What means coalesced / uncoalesced?
-A:
- 
 Q. Can you implement a matrix transpose kernel?
-A:
-
 Q. What is a warp?
-A:
- 
 Q. How many warps can run simultaneously inside a multiprocessor? 
-A:
-
 Q. What is the difference between a block and a thread?
-A:
- 
 Q. Can thread communicate between them? and blocks?
-A:
- 
 Q. Can you describe how works a cache?
-A:
- 
 Q. What is the difference between shared memory and registers?
-A:
- 
 Q. Which algorithms perform better on the gpu? data bound or cpu bound?
- A:
 Q. Which steps will you perform to port of an application to cuda ?
-A: 
 Q. What is a barrier ? 
-A:
 Q. What is a Stream ? 
-A:
 Q. Can you describe what means occupancy of a kernel? 
-A:
 Q. What means structure of array vs array of structures? 
-A:
 Local memory is used to store local values that doesn't fit into registers.
 
 If it's a scientific role then expect questions on floating point and numerical accuracy, in particular you should look at the reduction sample in the NVIDIA SDK since that illustrates a whole load of the points in Fabrizio's post too.
-
-
-
-
 
 
 "You have N vectors of length M (N>>M). Tell me how you would go about designing a kernel to evaluate the distance matrix. Pay special attention to the way the problem is sub-divided and to the way the thread co-operation can be used to improve occupancy.
