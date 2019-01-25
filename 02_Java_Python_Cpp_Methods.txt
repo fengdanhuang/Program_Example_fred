@@ -105,6 +105,13 @@ Java Queue (Interface)
 	       q.peek() -> Object re (Don't remove head)
 	       q.size() -> int size	       
 =======================================================================
+Java Deque 
+      
+       Declare:
+               Deque<String> dq = new LinkedList<>();
+       Methods:
+               dq.addAll(Arrays.asList(data.split(spliter)));
+=======================================================================
 Java HashSet
 
 	Declare:
