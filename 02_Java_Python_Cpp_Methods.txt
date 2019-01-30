@@ -192,7 +192,8 @@ Python Function
 		       divmod(v1+v2+carry, 10)
 		type([all objects]) -> the type of an object
 		       if type(headB.val) is str:
-		map()
+		map(function,iterable,...)
+		       Apply function to every item of iterable and return a list of the results.
 		       map(operator.ne, [0] + row, row + [0])
 		zip() -> a list of tuples
 		       zip(*grid)
