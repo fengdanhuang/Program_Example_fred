@@ -165,9 +165,86 @@ Java Math
 		Math.max([int], [int])
 		Math.floor()
 =======================================================================
+Python Keyword 
+                yield
+		
+=======================================================================
 Python Function
 
-	Xrange(A,B)
-	abs()
-	int()
-	str()
+	        Xrange(A,B)
+		       xrange(r)	        
+		range()
+		       range(0, len(s))
+	        abs()
+	        int()
+	        str()
+		       str(read - anchor + 1)
+		int()
+                len(list, queue, str, set)-> return int
+		max()
+		min()
+		       min(max_left[i-1], max_right[i-1])
+		sum()
+		set()
+		sorted(list, )
+		enumerate(chars)
+		divmod()
+		       divmod(v1+v2+carry, 10)
+		type([all objects])
+		       if type(headB.val) is str:
+		map()
+		       map(operator.ne, [0] + row, row + [0])
+		zip()
+		       zip(*grid)
+		join()
+		       ''.join(res)[::-1]
+=======================================================================
+Python List
+        Declare
+	        res = []
+		resList = list()
+	Method
+	        res.append(nums1[i])
+		res.sort()
+		res.reverse()
+=======================================================================
+Python Stack
+        Declare 
+	        stack = []
+	Method
+	        stack.append(s[i])
+		stack.pop()
+Python Queue
+        Declare
+                queue = collections.deque()
+	Method
+	        queue.append(root)
+		queue.popleft()
+		queue.append(node.left)
+=======================================================================
+Python String
+        Declare
+	Method
+	        s.reverse()
+=======================================================================
+Python Set
+       Declare
+       Method
+                set.intersection(set2)
+=======================================================================
+Python Dictionary
+        Declare
+                record = {}
+		ht = dict()
+	Method
+                record.get(s[i]) -> 
+=======================================================================
+Python defaultdict
+        Declare
+	        graph = collections.defaultdict(list)
+=======================================================================
+Python random
+        random.randint(left, right) 
+=======================================================================
+Python lambda function
+        lambda x:x[1]
