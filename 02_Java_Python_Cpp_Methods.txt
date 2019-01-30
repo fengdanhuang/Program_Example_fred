@@ -171,9 +171,9 @@ Python Keyword
 =======================================================================
 Python Function
 
-	        Xrange(A,B)
+	        Xrange(A,B) -> xrange object
 		       xrange(r)	        
-		range()
+		range() -> list
 		       range(0, len(s))
 	        abs()
 	        int()
@@ -190,11 +190,11 @@ Python Function
 		enumerate(chars)
 		divmod()
 		       divmod(v1+v2+carry, 10)
-		type([all objects])
+		type([all objects]) -> the type of an object
 		       if type(headB.val) is str:
 		map()
 		       map(operator.ne, [0] + row, row + [0])
-		zip()
+		zip() -> a list of tuples
 		       zip(*grid)
 		join()
 		       ''.join(res)[::-1]
