@@ -150,13 +150,18 @@ Java ArrayList
 		al.get([int])
 		al.add(new Interval(begin[i-1], end[i-1]))
 		al.addAll(bucket[i]);
+                al.toArray(new Interval[ans.size()])
 =======================================================================
 Java LinkedList
 
         Declare:
 	        LinkedList<Integer> lk = new LinkedList<>();
 	Methods:
-	        
+=======================================================================
+Java Collections
+        Static Methods:
+                Collections.sort(locations) (locations = new ArrayList<>();)
+		                       
 =======================================================================
 Java Math
 	
@@ -179,6 +184,8 @@ Python Function
 	        int()
 	        str()
 		       str(read - anchor + 1)
+                ord()
+                       ord('a')
 		int()
                 len(list, queue, str, set)-> return int
 		max()
@@ -187,6 +194,8 @@ Python Function
 		sum()
 		set()
 		sorted(list, )
+                reversed()
+                       reversed(A)
 		enumerate(chars)
 		divmod()
 		       divmod(v1+v2+carry, 10)
@@ -249,3 +258,6 @@ Python random
 =======================================================================
 Python lambda function
         lambda x:x[1]
+=======================================================================
+Python collections
+        collections.defaultdict(lambda: collections.defaultdict(list))
