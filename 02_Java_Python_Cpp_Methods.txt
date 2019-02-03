@@ -261,3 +261,8 @@ Python lambda function
 =======================================================================
 Python collections
         collections.defaultdict(lambda: collections.defaultdict(list))
+=======================================================================	
+Python math
+        math.floor(n ** 0.5)
+=======================================================================	
+        collections.defaultdict(lambda: collections.defaultdict(list))
