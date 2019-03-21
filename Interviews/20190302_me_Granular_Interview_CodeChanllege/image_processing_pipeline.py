@@ -225,6 +225,6 @@ df = pd.DataFrame(plist,columns=['latitude','longitude'])
 
 ## Use google map api to show all geolocations.
 locations = df
-gmaps.configure(api_key='AIzaSyDlRBgZKNxixKNe0lOIqBr5xOKW4_sSsYM')
+gmaps.configure(api_key='XXXX')##Real google api key is in school email.
 fig = gmaps.figure()
 fig.add_layer(gmaps.heatmap_layer(locations))
