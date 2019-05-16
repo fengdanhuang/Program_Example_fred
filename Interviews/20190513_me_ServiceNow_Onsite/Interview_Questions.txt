@@ -1,0 +1,29 @@
+
+Kannan:
+1. What is the problem?
+2. Why do you choose this way?
+3. How can you do it differently to make it better?
+4. How do you from this question to this answer?
+5. Don't directly jump to the answer?
+6. What is the difficulty of doing this?
+
+Anil:
+1. How to design a LRU cache from system point of view?
+2. What is a singleton class? How to create a object for the singleton class?
+
+Andrew:
+1. How to use callable to implement multithread?
+2. About curl call?
+3. What is the class of HTTP status code?
+4. What are the classes of HTTP term and their meaning?
+
+Tao:
+Write a class(data structure) to implement +1/-1. What is the optimal solution?
+Answer: The better way is the double linkedlist.
+
+Anil/Pxxtel:
+Q1. Two Sum
+Q2. String s = EBFAHEJIKNIOPGL. String t = FENG. Search t from s and find out start index and end index.
+
+
+
