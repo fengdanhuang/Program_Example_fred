@@ -1,0 +1,8 @@
+Developed by the United States Navy's Naval Research Laboratory (NRL), the satellite was in many ways a direct successor to NRL's Project Vanguard, the first American satellite program. 
+The satellite's scientific mission was a success, sending useful data through November 1960 that determined normal solar X-ray output and confirmed the connection between increased solar X-ray activity and radio fade-outs.
+In 1957 the Soviet Union began deploying the S-75 Dvina surface-to-air missile, controlled by Fan Song fire control radars. 
+This development made penetration of Soviet air space by American bombers more dangerous. 
+The US Air Force began a program of cataloging the rough location and individual operating frequencies of these radars, using electronic reconnaissance aircraft flying off the borders of the Soviet Union. 
+This program provided information on radars on the periphery of the Soviet Union, but information on the sites further inland was lacking. 
+Some experiments were carried out using radio telescopes looking for serendipitous Soviet radar reflections off the Moon, but this proved an inadequate solution to the problem.
+
