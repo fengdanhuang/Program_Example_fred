@@ -1,0 +1,36 @@
+class Item {
+        int x;
+        boolean value;
+        public Item(int x, boolean v) {
+                this.x = x;
+                this.value = v;
+        }
+}
+
+
+
+
+class Result {
+        List<size_t> find_all_where(boolean b) { 
+                System.in
+                StringBuffer s
+                List<size_t> res = new ArrayList<>();
+                for (is_set(index)) {
+                 res.add(item(idex, true));
+                }
+}
+}
+
+
+class AttributeFilteredLookup {
+  
+public:
+  explicit AttributeFilteredLookup(size_t initial_reserved_size);
+  bool set_attribute(size_t record_index);
+  bool clear_attribute(size_t record_index);
+  bool flip_attribute(size_t record_index);
+  bool is_set(size_t record_index) const;
+  // the return type need not be a std::vector, but it should support iterating
+  // across the reulting set of record_index results in a consistent order.
+  std::vector<size_t> find_all_where(bool query) const;
+};
