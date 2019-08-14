@@ -1,9 +1,0 @@
-customer1.us.ca.*=server11
-customer1.us.ny.*=server12
-customer2.us.*.*=server31
-customer2.in.*.*=server32
-customer2.*.*.*=server4a
-customer2.*.*.*=server4b
-*.*.*.*=server5
-customer1.us.ca.sjc=server2a
-customer1.us.ca.sf=server2b

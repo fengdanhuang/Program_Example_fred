@@ -1,0 +1,63 @@
+
+Interviewer 1. (Search Algorithm Manager)
+
+Q1. Please draw a system design chart about Anomaly Detection?
+
+
+Q2. Please draw a system design chart about search algorithm (system)?
+
+
+Q3. Code Problem. Two character streams.
+Streams1. s a b c d z e f g i s a b z ...... (Infinity)
+Stream2. s b z
+Ask: please in stream1 find the smallest window length that stream1 contains stream2.
+
+
+Q4. Have you write any data pipeline? Look like your work doesn't need that much time to finish, what other work did you do?
+(Note: data pipeline is different from machine learning pipeline.)
+
+
+Interview 2. (Machine Learning)
+
+Q1. Why don't you care about false negative in the anomaly detection?
+
+
+Q2. How do you process the imbalanced data in your anomaly detection system?
+
+
+
+Q3. Describe Logistic Regression?
+
+        Relationship between Linear Regression and Logistic Regression
+
+
+Q4. What is prior, maximum Likelihood function, and posterior?
+
+
+
+Q5. What is precision and recall?
+
+
+Q6. What other classification metric do you know?
+
+
+Q7. Code Problem. Validate Binary Search Tree?
+
+  Right BST:
+
+             10
+            /  \
+           5    30
+          / \  /  \
+         3   9 15  35
+     In order: [3 5 9 10 15 30 35], increasing     
+
+
+  Wrong BST:
+
+             10
+            /  \
+           5    30
+          / \   / \
+         3  20 15  35
+     In order: [3 5 20 10 15 30 35], not increasing

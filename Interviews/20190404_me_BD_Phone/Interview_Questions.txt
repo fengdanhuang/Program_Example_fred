@@ -1,0 +1,13 @@
+
+
+Q1. What is Pattern Matching?
+
+
+
+Q2. 假设主要的数据都很好，如何排除已有的data中的杂质。
+
+
+
+Q3. 有两种Anomaly Detection的方法，一种是unsupervised learning比如clustering, 另一种是基于Ground Truth?
+请说说各自的优点和缺点？
+
