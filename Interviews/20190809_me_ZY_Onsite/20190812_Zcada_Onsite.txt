@@ -1,0 +1,51 @@
+Onsite
+
+Interviwer1:
+Given a string, how to check the palindrome?
+Answer:
+public boolean isPalindrome(String s, String t){
+	
+}
+
+How to implement such function in a library when considering exceptions?
+
+How many exceptions are there in java?
+
+How many ways to implement the java exception mechnism?
+
+How to process exception in C language?
+
+If the file is very large, how to remove the repetition?
+
+
+
+What's the difference between Python 2 and Python 3?
+
+
+
+
+Interviewer2:
+What's the difference between http 1.0 and http 2.0?
+
+Descri
+
+What's the difference between http and https?
+
+What's the TCP/IP model and each layer's protocols?
+
+
+
+
+
+CTO: 
+What is your favorite algorithm and data structure?
+A: Hash Map
+
+Give some examples of Hash Map application?
+
+
+What is the popular hash algorithm?
+
+
+
+
