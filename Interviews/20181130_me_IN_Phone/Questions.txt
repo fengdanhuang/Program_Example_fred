@@ -1,0 +1,33 @@
+
+
+Question 2.
+
+biased coin
+toss N times
+get heads k times
+What is the MLE of the bias?
+
+beta
+
+L = beta^k(1-beta)^(N-k)
+lnL = 
+p(k)=p^k
+
+p(k)=p(k|N)* p(N) 
+
+
+
+
+Question 3.
+Accrary = Sigma(y-y')^2
+
+
+
+Question 4.
+Please explain logistic regression. 
+y = p*  c^n + (1-p)* c^(1-n) ...
+
+
+Question 5.
+Please explain Presicion and Recall.
+

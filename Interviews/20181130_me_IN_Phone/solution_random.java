@@ -1,7 +1,11 @@
-Input:
-A method getRandom01Uniform() that generates a random integer in [0, 1], where 0 and 1 are generated with uniform probability
-Output:
-A method getRandom06Uniform() that generates a random integer in [0, 6] with uniform probability 
+
+/*
+Interviewer: ML (Indian Woman)
+Interview Result: DOWN
+
+Question 1:
+Input:  A method getRandom01Uniform() that generates a random integer in [0, 1], where 0 and 1 are generated with uniform probability
+Output: A method getRandom06Uniform() that generates a random integer in [0, 6] with uniform probability 
 
 000 0
 001 1
@@ -17,35 +21,23 @@ getRandom01Uniform()*2^2 + getRandom01Uniform()*2^1 + getRandom01Uniform()*2^0
 
 while ouput == 7: 
   getRandom01Uniform()*2^2 + getRandom01Uniform()*2^1 + getRandom01Uniform()*2^0
+*/
 
 class Solution{
 
     public int getRandom06Uniform(){
-
-        int re;
-
-        re = getRandom01Uniform()*4 + getRandom01Uniform()*2 + getRandom01Uniform()
-
+        int re = getRandom01Uniform()*4 + getRandom01Uniform()*2 + getRandom01Uniform();
         if(re == 7){
             getRandom06Uniform();   
         }
-
         return re;
+    }
+
+    public static void main(String[] args){
+        Solution so = new Solution();
+        so.getRandom06Uniform();
+ 
 
     }
 }
 
-biased coin
-toss N times
-get heads k times
-What is the MLE of the bias?
-
-beta
-
-L = beta^k(1-beta)^(N-k)
-lnL = 
-p(k)=p^k
-
-p(k)=p(k|N)* p(N) 
-
-Accrary = Sigma(y-y')^2
